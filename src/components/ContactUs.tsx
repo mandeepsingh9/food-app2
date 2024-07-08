@@ -13,7 +13,7 @@ const center = {
 
 const ContactUs = () => {
   return (
-    <div className="bg-white mt-12">
+    <section className="bg-white mt-12" id='contact'>
       <div className="container pt-20">
         <div className="grid md:grid-cols-2 gap-16">
           <div className="space-y-4">
@@ -43,7 +43,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

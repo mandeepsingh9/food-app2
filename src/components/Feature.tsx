@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Feature = () => {
   return (
-    <div className="container ">
+    <div className="container " id='food'>
        <div className="material-container border-600">
         <div className="material-inner-left-container">  <h2 className="text-6xl font-bold pt-2">
         Featured <span className="text-accent">Food</span>

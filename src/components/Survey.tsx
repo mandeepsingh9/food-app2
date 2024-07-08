@@ -3,7 +3,7 @@ import React from 'react'
 
 const Survey = () => {
   return (
-    <div className="container pt-40">
+    <section className="container pt-40" id='about'>
       <div className="grid lg:grid-cols-[55%,1fr] gap-20">
         <div>
           <Image
@@ -30,7 +30,7 @@ const Survey = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

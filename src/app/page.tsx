@@ -5,6 +5,7 @@ import Services from '@/components/Services'
 import Survey from '@/components/Survey'
 import Image from 'next/image'
 
+
 export default function Home() {
   return (
     <main>
@@ -13,6 +14,7 @@ export default function Home() {
       <Services/>
       <Menu/>
       <Survey/>
+   
     </main>
   )
 }

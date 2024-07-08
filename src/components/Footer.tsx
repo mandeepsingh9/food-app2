@@ -4,7 +4,7 @@ import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className="bg-gray-200 mt-12"> {/* Added margin top */}
+    <div className="bg-gray-200 mt-12" id='contact'> {/* Added margin top */}
       <div className="container pt-20"> {/* Adjusted padding top */}
         <div className="grid md:grid-cols-3 gap-16">
           <div className="space-y-4">

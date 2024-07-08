@@ -55,7 +55,7 @@ const LoginForm = () => {
         password: '',
       });
     }
-    router.push('/');
+    router.push('#home');
   };
 
   return (
