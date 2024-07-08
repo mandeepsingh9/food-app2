@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 
 const Hero = () => {
   return (
-    <div className=" container overflow-hidden flex sm:flex-row flex-col w-full h-auto my-10 items-center" id='home'>
+    <div className=" container overflow-hidden flex sm:flex-row flex-col w-full h-auto my-10 items-center " id='home'>
     <div className='flex items-center p-6 w-full sm:w-2/3'>
       <div className='space-y-4 bg-[#fffff98] w-fit p-4'>
         <p className="text-gray-700 text-[14px] sm:text-[16px]">Wide option of choice</p>

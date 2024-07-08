@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop navigation */}
-        <nav className="md:flex hidden gap-8 items-center font-semibold text-[14px]">
+        <nav className="md:flex hidden gap-8 items-center font-semibold text-[14px] cursor-pointer">
           <ScrollNavLink to="home" text="Home" />
           <ScrollNavLink to="about" text="About" />
           <ScrollNavLink to="food" text="Food" />
